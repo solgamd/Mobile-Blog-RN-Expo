@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 792,
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
   "expoServerNgrokUrl": "https://rd-uwq.megadawn.mobileblogexpo.exp.direct",
   "packagerNgrokUrl": "https://packager.rd-uwq.megadawn.mobileblogexpo.exp.direct",
-  "ngrokPid": 805
+  "ngrokPid": 4413
 }

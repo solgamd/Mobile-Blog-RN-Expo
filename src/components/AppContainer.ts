@@ -10,15 +10,15 @@ const AppNavigator = createStackNavigator({
     SingleBlog
 }, {
     //generic styling
-    //load components like buttons, logos
     initialRouteName: 'AllBlogs',
     defaultNavigationOptions: {
         headerStyle: {
-            backgroundColor: '#ECA72C'
+            backgroundColor: '#44355B'
         },
-        headerTintColor: '#44355B',
+        headerTintColor: '#31263E',
         headerTitleStyle: {
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            color: 'white'
         }
     }
 });
