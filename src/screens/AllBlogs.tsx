@@ -1,8 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
 import { NavigationScreenOptions } from 'react-navigation';
+import { NavigationStackScreenProps } from 'react-navigation-stack';
 
-interface AllBlogsProps { }
+interface AllBlogsProps extends NavigationStackScreenProps { }
 interface AllBlogsState { }
 
 export default class AllBlogs extends React.Component<AllBlogsProps, AllBlogsState> {
@@ -15,6 +16,9 @@ export default class AllBlogs extends React.Component<AllBlogsProps, AllBlogsSta
     return (
       <View style={styles.container}>
         <Text>AllBlogs screen</Text>
+        <Button
+          title="Get Single Blog"
+          onPress={() => this.props.navigation.navigate("SingleBlog")} />
       </View>
     );
   }

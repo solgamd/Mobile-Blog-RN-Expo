@@ -11,7 +11,7 @@ const AppNavigator = createStackNavigator({
 }, {
     //generic styling
     //load components like buttons, logos
-    initialRouteName: 'SingleBlog',
+    initialRouteName: 'AllBlogs',
     defaultNavigationOptions: {
         headerStyle: {
             backgroundColor: '#ECA72C'
